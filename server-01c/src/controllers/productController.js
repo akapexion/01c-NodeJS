@@ -1,9 +1,6 @@
 const productController = {
-    readProducts : (req, res) => {
-        res.send({
-            productID : 1,
-            productName : "Laptop"
-        });
+    allProducts : (req, res) => {
+        res.send("Products");
     }
 }
 
